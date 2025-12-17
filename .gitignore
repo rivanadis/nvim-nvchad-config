@@ -1,7 +1,8 @@
+.gitignore
 # Neovim cache & data
 .nvmrc
 .lazy
-.lazy-lock.json
+lazy-lock.json
 
 # OS
 .DS_Store
