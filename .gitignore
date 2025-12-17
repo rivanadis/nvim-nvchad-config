@@ -1,0 +1,11 @@
+# Neovim cache & data
+.nvmrc
+.lazy
+lazy-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
