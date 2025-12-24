@@ -26,19 +26,10 @@ return {
   {
     "nvim-treesitter/nvim-treesitter",
     lazy = false,
+    enabled = false,
     opts = {
-      ensure_installed = {
-        "vim",
-        "lua",
-        "vimdoc",
-        "html",
-        "css",
-        "go",
-        "gomod",
-        "gowork",
-        "gosum",
-      },
-      auto_install = true,
+      ensure_installed = {},
+      auto_install = false,
     },
   },
 }
